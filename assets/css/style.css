@@ -67,8 +67,7 @@ div {
 }
 
 .footer {
-    height: 50px;
-    margin-top: -50px;
+    line-height: 50px;
     background-color: #666666;
     text-align: center;
     border-top: 5px solid;
