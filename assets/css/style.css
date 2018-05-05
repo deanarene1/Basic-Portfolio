@@ -1,3 +1,14 @@
+.banner {
+    background-color:#4aaaa5;
+    color: #ffffff;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    font-family: serif;
+    font-size: 20px;
+    margin-top: 130px;
+}
+
 .bio-image {
         float: left;
         width: 200px;
@@ -47,7 +58,7 @@ body {
 
 .contentinside {
     padding-bottom: 50px;
-    width: 800px;
+    width: 500px;
 }
 
 div {
@@ -73,6 +84,20 @@ div {
     border-top: 5px solid;
     border-color: #4aaaa5;
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.gridcontainer {
+    display: grid;
+    height: 700px;
+    align-content: end;
+    grid-template-columns: auto auto;
+    grid-gap: 30px;
+    margin-left: 25px;
+}
+
+.gridcontainer > div {
+    width: 250px;
 }
 
 h1 {
@@ -129,6 +154,41 @@ html {
     width: 750px;
 }
 
+.photobox {
+    width: 200px;
+    height: 200px;
+    margin: 0px;
+    background-size: cover;
+    display: grid;
+}
+
+.photoboxone {
+    background-image: url("../images/33rpm-audio-music-player-19951.jpg");
+    display: inline-grid;
+    grid-row-start: auto
+}
+
+.photoboxtwo {
+    background-image: url("../images/blur-close-up-device-442576.jpg");
+    display: inline-grid;
+}
+
+.photoboxthree {
+    background-image: url("../images/coffee-cup-earphones-163187.jpg");
+    display: grid;
+}
+
+.photoboxfour {
+    background-image: url("../images/blur-cellphone-connection-983831.jpg");
+    display: grid;
+}
+
+.photoboxfive {
+    background-image: url("../images/apple-gadgets-ipad-39559.jpg");
+    display: grid;
+}
+
+
 #space {
     text-align: center;
 }
@@ -142,9 +202,17 @@ html {
     margin-left: 25px;
 }
 
+.tab {
+    margin-left: 30px;
+}
+
 #text {
     margin: 0px 0px 0px 20px;
     padding: 0px 0px 0px 0px;
+}
+
+.textcolor {
+    color: #777777;
 }
 
 #top {
