@@ -154,6 +154,12 @@ html {
     width: 750px;
 }
 
+.nolines {
+ text-decoration: none;
+
+}
+
+
 .photobox {
     width: 200px;
     height: 200px;
